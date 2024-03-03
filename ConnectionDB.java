@@ -6,7 +6,7 @@ import java.sql.DriverManager;
   class ConnectionDB  {
 	   static String url = "jdbc:mysql://localhost:3306/restaurent";
         static String user = "root";
-        static String password = "Nithish@13kumar";
+        static String password = "yourpass";
         static Connection con;
         public static Connection createConnection() {
              try {
